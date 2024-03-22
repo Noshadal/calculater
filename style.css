@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(19, 12, 20);
+}
+.container {
+    background-image: url(./images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+}
+
+.cal {
+    height: 35vh;
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    height: 30%;
+    width: 25%;
+    font-size: 25px;
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#input {
+    width: 100%;
+    height: 22%;
+    background: rgb(245, 239, 205);
+    font-size: 22px;
+    /* border-radius: 5px; */
+}
+
+.eqal {
+    color: rgb(6, 209, 224);
+   
+}
+   .big{
+    background-color: rgb(255, 217, 0);
+    color: rgb(126, 18, 27);
+       font-size: 32px;
+       height: 30%;
+       width: 50%;
+    }
+    button:hover{
+        font-size: 30px;
+        background-color: aliceblue;
+        color: black;
+    }
+    .eqal:hover{
+        color: rgb(4, 104, 104);
+        background-color: rgb(255, 255, 255);
+    }
+    .big:hover{
+        background-color: rgb(255, 166, 0);
+        color: rgb(167, 6, 6);
+        font-size: 40px;
+
+    }
+@media only screen and (max-width: 480px) {
+    .container {
+        height: 100vh;
+    }
+
+    .cal {
+        width: 40%;
+        height: 20%;
+    }
+
+    button {
+        width: 25%;
+        height: 20%;
+        gap: 0px;
+        
+    }   
+    .eqal {
+        height: 20%;
+        width: 50%;
+    }
+}

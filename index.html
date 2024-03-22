@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cal">
+            <input type="text" id="input">
+            <!-- <button onclick="cal('')">AC</button> -->
+            <button onclick="cal('')" class="eqal big">AC</button>
+            <button onclick="del('')" class="eqal">DEL</button>
+            <button onclick="key('-')" class="eqal">-</button>
+            <button onclick="key('7')">7</button>
+            <button onclick="key('8')">8</button>
+            <button onclick="key('9')">9</button>
+            <button onclick="key('+')" class="eqal">+</button>
+            <button onclick="key('4')">4</button>
+            <button onclick="key('5')">5</button>
+            <button onclick="key('6')">6</button>
+            <button onclick="key('*')" class="eqal">*</button>
+            <button onclick="key('1')">1</button>
+            <button onclick="key('2')">2</button>
+            <button onclick="key('3')">3</button>
+            <button onclick="key('/')" class="eqal">/</button>
+            <button onclick="key('0')">0</button>
+            <button onclick="key('.')" >.</button>
+            <button onclick="key('00')">00</button>
+            <button onclick="calculate()" class="eqal">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
